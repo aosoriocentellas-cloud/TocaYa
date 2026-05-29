@@ -1,8 +1,8 @@
 <?php
-$servidor = "TU_MYSQL_HOSTNAME_DE_INFINITYFREE";
-$usuario  = "TU_MYSQL_USERNAME_DE_INFINITYFREE";
-$password = "TU_MYSQL_PASSWORD_DE_INFINITYFREE"; 
-$base_datos = "TU_DATABASE_NAME_DE_INFINITYFREE"; 
+$servidor = "sql113.infinityfree.com";
+$usuario  = "if0_42043642";
+$password = "SUI6jgin23mB"; 
+$base_datos = "if0_42043642_TocaYa"; 
 
 $conexion = new mysqli($servidor, $usuario, $password, $base_datos);
 
