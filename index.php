@@ -41,7 +41,7 @@ $resultado = $conexion->query($query);
 <body>
 
     <div class="container">
-        <h1>🎸 Tienda de Artículos Musicales</h1>
+        <h1>🎸 TocaYa</h1>
         
         <div class="row">
             <!-- Formulario Extendido -->
