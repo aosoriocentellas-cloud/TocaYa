@@ -1,16 +1,12 @@
 <?php
-$servidor = "localhost";
-$usuario = "root";
-$password = "";
-$base_datos = "musica"; 
+$servidor = "TU_MYSQL_HOSTNAME_DE_INFINITYFREE";
+$usuario  = "TU_MYSQL_USERNAME_DE_INFINITYFREE";
+$password = "TU_MYSQL_PASSWORD_DE_INFINITYFREE"; 
+$base_datos = "TU_DATABASE_NAME_DE_INFINITYFREE"; 
 
-// Crear la conexión
 $conexion = new mysqli($servidor, $usuario, $password, $base_datos);
 
-// Comprobar si hay error
 if ($conexion->connect_error) {
-    die("Error al conectar con la base de datos: " . $conexion->connect_error);
+    die("Error de conexión: " . $conexion->connect_error);
 }
-
-echo "¡Conexión exitosa a la base de datos!";
 ?>
