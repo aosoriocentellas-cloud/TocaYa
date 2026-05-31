@@ -5,7 +5,7 @@ $password = "SUI6jgin23mB";
 $base_datos = "if0_42043642_TocaYa"; 
 
 $conexion = new mysqli($servidor, $usuario, $password, $base_datos);
-
+$conexion->set_charset("utf8");
 if ($conexion->connect_error) {
     die("Error de conexión: " . $conexion->connect_error);
 }
